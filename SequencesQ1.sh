@@ -1,2 +1,4 @@
-randomCheck=$(( (RANDOM%6) +1))
-echo "Roll Dice and Get Number Randomliy:" $randomCheck
+        dice1=$((RANDOM%6))
+        dice2=$((RANDOM%6))
+        sum=$((dice1+dice2))
+        echo "Two Roll Dice:" $sum
